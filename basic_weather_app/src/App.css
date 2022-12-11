@@ -1,0 +1,30 @@
+body, html {
+  height: 100%;
+  margin:0;
+  padding: 0;
+  background-image: url("../bg.jpg"); 
+  height: 100%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top:50px;
+}
+.weather {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.116);
+  border-radius:10%;
+  padding:30px 90px;
+}
+.weather h3{
+  color:#e74c3c;
+  font: bold 30px Helvetica;
+}
+.weather h3 span{
+  color:#ff1900;
+  font: bold 30px Helvetica;
+}
